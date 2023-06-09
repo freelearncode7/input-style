@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.856);
+    justify-content: center;
+    display: flex;
+    place-items: center;
+    height: 100vh;
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+    color: white;
+}
+
+#input {
+    width: 400px;
+    height: 40px;
+}
